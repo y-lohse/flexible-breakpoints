@@ -1,0 +1,25 @@
+@import "bkreakpoints";
+
+$heavy-weight: 1400px;
+$light-heavy-weight: 1200px;
+$middle-weight: 960px;
+$welter-weight: 700px;
+$light-weight: 500px;
+$feather-weight: 300px;
+
+@include register-breakpoints($heavy-weight, $light-heavy-weight, $middle-weight, $welter-weight, $light-weight, $feather-weight);
+
+#selector{
+	@include width-matches($middle-weight){
+		some: rule;
+	}
+	@include width-above($light-heavy-weight){
+		some-other: rule;
+	}
+	@include width-below($light-weight){
+		yet-another: rule;
+	}
+	@include width-between($light-weight, $middle-weight){
+		final: rule;
+	}
+}
