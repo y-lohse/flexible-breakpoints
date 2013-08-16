@@ -11,7 +11,7 @@ Nobody wants to write their media queries more than once. Seriously.
 @media only screen and (min-width: 700px) and (max-width: 1200px)
 ```
 
-That's logn, hard to read, hard to maintain. Sass makes it much easier with the @content directive.
+That's long, hard to read, hard to maintain. Sass makes it much easier with the @content directive.
 [Here](http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32)
 and [there](http://css-tricks.com/media-queries-sass-3-2-and-codekit/) is how you set it up, and 
 afterwards you can go 
@@ -35,7 +35,7 @@ That's awesome.
 
 ## Using variables
 
-Now usually, I maintain a couple of variables that determine my breakpoints, like so :
+Now usually, I maintain a couple of variables that determine my breakpoints, like so:
 
 ```
 $media-desktop: 960px;
