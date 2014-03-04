@@ -46,7 +46,7 @@ $media-phone: 340px;
 That's mainly because I tend to use those values not only in media queries (but also in container width
 for example).
 
-It's not too hard to derive the SASS mixins linked above to work with variables... ***but**
+It's not too hard to derive the SASS mixins linked above to work with variables... **but**
 
 I found it get's messy when you want to add a new breakpoint, or you want to target say 
 anything **smaller** than a certain breakpoint. When that happens I have to rewrite my breakpoint 
@@ -140,7 +140,7 @@ Matches everything equal or larger than the given width.
 Matches everything smaller than the given width.
 
 ```
-@include width-above($feather-weight){
+@include width-below($feather-weight){
 	//everything smaller than 300px
 }
 ```
