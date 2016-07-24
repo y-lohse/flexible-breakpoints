@@ -43,8 +43,8 @@ $media-tablet: 760px;
 $media-phone: 340px;
 ```
 
-That's mainly because I tend to use those values not only in media queries (but also in container width
-for example).
+That's mainly because I tend to use those values not only in media queries but also in container width
+for example.
 
 It's not too hard to derive the SASS mixins linked above to work with variables... **but**
 
@@ -59,7 +59,7 @@ because I realize they were dumb, I have more rewriting to do.
 ## SO
 
 So I wrote some mixins that keep what I like in this system, add what I feel is lacking and suppresses
-the rewriting issues. It's 60 lines so if you want to know how it works behidn teh scene, just read the code.
+the rewriting issues. It's 60 lines so if you want to know how it works behind the scenes, just read the code.
 
 Here's how you use it. There's also and usage.scss file with... well, usage examples.
 
